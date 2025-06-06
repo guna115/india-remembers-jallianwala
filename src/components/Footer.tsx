@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Footer = () => {
@@ -26,7 +25,6 @@ const Footer = () => {
               <li><a href="#timeline" className="hover:text-white transition-colors">Timeline</a></li>
               <li><a href="#gallery" className="hover:text-white transition-colors">Gallery</a></li>
               <li><a href="#memorial" className="hover:text-white transition-colors">Visit Memorial</a></li>
-              <li><a href="#resources" className="hover:text-white transition-colors">Resources</a></li>
             </ul>
           </div>
           

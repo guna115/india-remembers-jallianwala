@@ -7,7 +7,6 @@ import MassacreDay from '../components/MassacreDay';
 import PhotoGallery from '../components/PhotoGallery';
 import Reactions from '../components/Reactions';
 import Memorial from '../components/Memorial';
-import Resources from '../components/Resources';
 import Footer from '../components/Footer';
 
 const Index = () => {
@@ -20,7 +19,6 @@ const Index = () => {
       <PhotoGallery />
       <Reactions />
       <Memorial />
-      <Resources />
       <Footer />
     </div>
   );

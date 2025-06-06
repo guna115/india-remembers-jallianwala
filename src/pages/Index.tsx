@@ -1,12 +1,27 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import Hero from '../components/Hero';
+import About from '../components/About';
+import Timeline from '../components/Timeline';
+import MassacreDay from '../components/MassacreDay';
+import PhotoGallery from '../components/PhotoGallery';
+import Reactions from '../components/Reactions';
+import Memorial from '../components/Memorial';
+import Resources from '../components/Resources';
+import Footer from '../components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-gray-50">
+      <Hero />
+      <About />
+      <Timeline />
+      <MassacreDay />
+      <PhotoGallery />
+      <Reactions />
+      <Memorial />
+      <Resources />
+      <Footer />
     </div>
   );
 };
